@@ -1,6 +1,8 @@
 on:
   pull_request:
     types: [opened, reopened]
+    paths:
+      - '**.*'
 
 jobs: 
   check_code:
